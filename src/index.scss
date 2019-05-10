@@ -11,7 +11,7 @@ html,body{
 }
 body{
   font-size: 65.2%;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
@@ -108,7 +108,7 @@ thead{
 tbody {
   tr:first-child {
     td{
-      padding: 2em 0 1.5em 0;
+      padding: 2em 0 1.5em 3%;
       &:last-child{
         box-shadow: none;
       }
@@ -157,21 +157,30 @@ section#tip2{
     font-size: .85em;
   }
   @media (max-width: 40em) {
-    font-size: .7em;
-
+    font-size: .9em;
     .left{
-      width: 60% !important;
+      width: 60%;
       margin: 0 auto;
       float: none;
     }
     .right{
-      width: 60% !important;
+      width: 60%;
       float: none;
       margin: 0 auto;
     }
   }
- 
- 
+  @media (max-width: 30em) {
+    .left{
+      width: 80%;
+      margin: 0 auto;
+      float: none;
+    }
+    .right{
+      width: 80%;
+      float: none;
+      margin: 0 auto;
+    }
+  }
 }
 
 .left{
@@ -192,6 +201,10 @@ section#tip2{
   border-radius: 50%;
   display: inline-block;
   position: relative;
+  @media (max-width: 500px) {
+    font-size: .8em;
+  }
+  
   span{
     display: block;
     position: absolute;
