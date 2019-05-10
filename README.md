@@ -1,5 +1,5 @@
-### ⭐[design is taken from ](https://www.instagram.com/p/BuBhhSPBEjl/)
+### ⭐ [ design is taken from  @lubosvolkov](https://www.instagram.com/p/BuBhhSPBEjl/)
+### 🌏 [ website url ](https://eminqasimov.github.io/colorui/)
 
-[![localhost-3000-www-coolors-co.png](https://i.postimg.cc/WzMQ2Q34/localhost-3000-www-coolors-co.png)](https://postimg.cc/q6vmwD2f)
 
-
+<img src="https://i.postimg.cc/cshfC9yp/localhost-3000-www-coolors-co.png" width="777px" title="full">
