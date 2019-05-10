@@ -32,12 +32,21 @@
   section{
     @media (max-width: 80em) {
       font-size: .95em;
+      thead {
+        font-size:.95em;
+      }
     }
     @media (max-width: 70em) {
       font-size: .9em;
+      thead {
+        font-size:.9em;
+      }
     }
     @media (max-width: 60em) {
       font-size: .85em;
+      thead {
+        font-size:.8em;
+      }
     }
     @media (max-width: 40em) {
       font-size: .9em;
