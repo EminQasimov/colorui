@@ -1,6 +1,16 @@
 section#tip6{
     padding: 2em 0;
     background: $bgwhite;
+    @media (max-width: 600px){
+        .left{
+            width: 100% !important;//😌
+            text-align: center !important;//😌
+        }
+        .right{
+            width: 100% !important;//😌
+            text-align: center !important;//😌
+        }
+    }
 
     .left{
         width: 50%;
@@ -54,23 +64,23 @@ section#tip6{
             &::after{
                 content: " ";
                 box-sizing: unset;
-                width: 3px;
-                height: 117%;
+                width: 1px;
+                height: 100%;
                 display: block;
                 position: absolute;
-                background: #030303;
+                background: #fafafa;
                 border: 2px solid #fff;
                 border-top-color: transparent;
                 border-bottom-color: transparent;
-                transform: translate(15px,-6px) rotate(120deg);
-                box-shadow: inset 0 0 0 20px #000;
+                transform: translate(17px, -2px) rotate(120deg);
             }
            
         }
        
         @for $i from 1 through 13{
+                $hue: $i * 360/13;
                :nth-child(#{$i}){
-                background: hsl($i * 360/14, 80%, 50%);
+                background: hsl($hue, 100%, 50%);
                 transform: 
                     scale(1.6) 
                     rotate(#{$i * 360 / 13}deg) 
@@ -86,8 +96,13 @@ section#tip6{
         transform-origin: right bottom;
         border: none;
     }
-    .pie2 p{
-        background: #51965b;
+    .pie2{
+        p{
+            background: #51965b;
+        }
+        span{
+            
+        }
     }
     .pie3 p{
         background: #f7542f;
@@ -97,4 +112,52 @@ section#tip6{
     }
     
 }// section end
- 
+
+// colorblindness filter with svg and sass mixins
+//http://lukyvj.github.io/accecss/
+
+@include accecss( 
+  $element: '.pie2 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: deuteranopia 
+);
+
+@include accecss( 
+  $element: '.pie3 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: protanopia 
+);
+@include accecss( 
+  $element: '.pie4 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: tritanopia 
+);
+
+
+@include accecss( 
+  $element: '.pie5 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: protanomaly 
+);
+@include accecss( 
+  $element: '.pie6 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: achromatopsia 
+);
+@include accecss( 
+  $element: '.pie7 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: deuteranomaly 
+);
+@include accecss( 
+  $element: '.pie8 span',
+  $zones: false,
+  $grayscale: false,
+  $cbFilter: achromatomaly 
+);
