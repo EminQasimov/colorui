@@ -60,7 +60,7 @@
     text-align: center;
   }
   
-  .pie{
+.pie{
     width: 27em;
     height: 27em;
     border-radius: 50%;
@@ -82,6 +82,20 @@
       border-left-color:transparent;
       border-style: solid;
       border-radius: 50%;
+      // &::after{
+      //   content: " ";
+      //   display: block;
+      //   position: absolute;
+      //   top:0;
+      //   left:0;
+      //   bottom:0;
+      //   right:0;
+      //   border: 2em solid;
+      //   transition: transform .2s ease;
+      //   transform: scale(1.2);
+      //   border-radius: 50%;
+      //   border-color: transparent;
+      // }
     }
     .purple{
         transform: rotate(-22deg)
