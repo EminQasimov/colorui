@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/colorui/static/css/main.edf5d1d6.chunk.css",
+    "main.js": "/colorui/static/js/main.2c091d69.chunk.js",
+    "main.js.map": "/colorui/static/js/main.2c091d69.chunk.js.map",
+    "runtime~main.js": "/colorui/static/js/runtime~main.10c09e4b.js",
+    "runtime~main.js.map": "/colorui/static/js/runtime~main.10c09e4b.js.map",
+    "static/js/2.3310f33a.chunk.js": "/colorui/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/colorui/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/colorui/index.html",
+    "precache-manifest.e919f3f69383ad08f2f3118fd82e8d14.js": "/colorui/precache-manifest.e919f3f69383ad08f2f3118fd82e8d14.js",
+    "service-worker.js": "/colorui/service-worker.js",
+    "static/css/main.edf5d1d6.chunk.css.map": "/colorui/static/css/main.edf5d1d6.chunk.css.map",
+    "static/media/index.scss": "/colorui/static/media/filters.7d354041.svg"
+  }
+}
