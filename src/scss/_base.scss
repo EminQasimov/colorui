@@ -19,7 +19,7 @@
     max-width: 100em;
     margin: auto;
     padding: 0 2%;
-    overflow-x: hidden;
+    overflow: hidden;
    
   }
   .clearfix:after {
@@ -46,6 +46,7 @@
   // -----------------colors------------
 
   $bg:#131313;
+  $bgwhite: #f2f2f2;
   $textColor:rgb(233, 232, 232);
   $blue: #28b9e5;
   $purple: #ac85fc;

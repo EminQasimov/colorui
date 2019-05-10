@@ -22,12 +22,15 @@ section#tip3{
     width: 20%;
     .bg{
         height: 60em;
+        @media (max-width: 50em){
+            height: 50em;
+        }
         display: block;
         position: relative;
         &::after{
             content: " ";
             width: 90%;
-            height: 60em;
+            height: 100%;
             position: absolute;
             z-index: 1;
             display: block;
