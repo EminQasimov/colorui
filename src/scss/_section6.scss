@@ -1,7 +1,11 @@
 section#tip6{
     padding: 2em 0 8em 0;
     background: $bgwhite;
+
     @media (max-width: 600px){
+        font-size: .8em !important;//😌;
+    }
+    @media (max-width: 500px){
         .left{
             width: 100% !important;//😌
             text-align: center !important;//😌
@@ -64,7 +68,6 @@ section#tip6{
             &::after{
                 content: " ";
                 box-sizing: unset;
-                width: 1px;
                 height: 100%;
                 display: block;
                 position: absolute;
