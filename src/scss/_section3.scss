@@ -1,0 +1,101 @@
+section#tip3{
+    background:$bg;
+    color: $textColor;
+    h3{
+        font-size: 2em;
+        font-weight: 100;
+        padding: 1.5em 0 0.5em 0;
+    }
+    p{
+        font-size: 1.5em;
+        color: gray;
+    }
+}
+
+.columns{
+    font-size: .9em;
+    padding: 6em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 20%;
+    .bg{
+        height: 60em;
+        display: block;
+        position: relative;
+        &::after{
+            content: " ";
+            width: 90%;
+            height: 60em;
+            position: absolute;
+            z-index: 1;
+            display: block;
+        }
+    }
+    &:nth-child(1) .bg{
+        background:
+        linear-gradient(
+        #8b9ee3 0 20%,
+        #637ae2 20% 40%, 
+        #4c6bd0 40% 60%, 
+        #f8dc19 60% 90%, 
+        #7c57f2 90% 100%);
+        &::after{
+            background:
+        linear-gradient(
+        #3e5cd4 0 60%,
+        #f8dc19 60% 90%,
+        #7c57f2 90% 100%);
+        }
+    }
+    
+    &:nth-child(2) .bg{
+        background:
+        linear-gradient(
+        #707089 0 20%,
+        #39405c 20% 40%, 
+        #212349 40% 60%, 
+        #2184e2 60% 90%,
+        #114a81 90% 100%);
+        &::after{
+            background:
+        linear-gradient(
+        #0c1137 0 60%,
+        #2184e2 60% 90%,
+        #114a81 90% 100%);
+        } 
+    }
+    &:nth-child(3) .bg{
+        background:
+        linear-gradient(
+            #ea829a 0 20%,
+            #ec5179 20% 40%, 
+            #e62b5d 40% 60%, 
+        #ffecf0 60% 90%,
+        #ff527f 90% 100%);
+        &::after{
+            background:
+        linear-gradient(
+        #e8295c 0 60%,
+        #ffecf0 60% 90%,
+        #ff527f 90% 100%);
+        }
+    }
+    &:nth-child(4) .bg{
+        background:
+        linear-gradient(
+        #878787 0 20%,
+        #5d5d5d 20% 40%, 
+        #464646 40% 60%, 
+        #e5aa50 60% 90%,
+        #727272 90% 100%);
+        &::after{
+        background:
+        linear-gradient(
+        #353535 0 60%,
+        #e5aa50 60% 90%,
+        #727272 90% 100%);
+        } 
+    }
+}
