@@ -18,6 +18,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+// background: rgba(139,158,227,1);
+// background: -moz-linear-gradient(left, rgba(139,158,227,1) 20%, rgba(99,122,226,NaN) 20%);
+// background: -webkit-gradient(left top, right top, color-stop(20%, rgba(139,158,227,1)), color-stop(20%, rgba(99,122,226,NaN)));
+// background: -webkit-linear-gradient(left, rgba(139,158,227,1) 20%, rgba(99,122,226,NaN) 20%);
+// background: -o-linear-gradient(left, rgba(139,158,227,1) 20%, rgba(99,122,226,NaN) 20%);
+// background: -ms-linear-gradient(left, rgba(139,158,227,1) 20%, rgba(99,122,226,NaN) 20%);
+// background: linear-gradient(to right, rgba(139,158,227,1) 20%, rgba(99,122,226,NaN) 20%);
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b9ee3', endColorstr='#637ae2', GradientType=1 );
+
 .col{
     width: 20%;
     .bg{
