@@ -1,4 +1,4 @@
-section#tip7{
+#tip7{
     background: $bg;
     color: #fff;
     padding: 1em 0 6em 0;
@@ -7,12 +7,12 @@ section#tip7{
         font-weight: 100;
         font-size: 4em;
         padding: 1.2em 0 .2em 0;
-        a{
-            text-decoration: none;
-            color: inherit;
-            &:hover{
-                text-decoration: underline;
-            }
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            text-decoration: underline;
         }
     }
     p{
