@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bf4f1513661130de0e6c9a1155a915c",
+    "revision": "3c0cbf90134d5dd5c679ae3c12566434",
     "url": "/colorui/index.html"
   },
   {
-    "revision": "f0ac1f55bd897d3f8896",
-    "url": "/colorui/static/css/main.1ed2b4b9.chunk.css"
+    "revision": "fb4c9ead9be79896074c",
+    "url": "/colorui/static/css/main.62c9cb34.chunk.css"
   },
   {
-    "revision": "f0ac1f55bd897d3f8896",
+    "revision": "fb4c9ead9be79896074c",
     "url": "/colorui/static/js/main.60caba6d.chunk.js"
   },
   {
